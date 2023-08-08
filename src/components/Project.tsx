@@ -1,12 +1,16 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Login() {
+interface Project {
+    name: string;
+}
+
+function Project() {
     return (
         <div className="">
-            Login
+            Project
         </div>
     );
 }
 
-export default Login;
+export default Project;

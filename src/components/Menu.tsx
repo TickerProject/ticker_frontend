@@ -7,8 +7,9 @@ interface NavInfo {
 }
 
 const AppRoutes: NavInfo[] = [
-    {path: "/", displayName: "Main", name: "main"},
-    {path: "/login", displayName: "Login", name: "login"}
+    {path: "/", displayName: "Home", name: "home"},
+    {path: "/tasks", displayName: "Tasks", name: "tasks"},
+    {path: "/createTask", displayName: "Create Task", name: "createTask"}
 ];
 
 function NaviLink(navInfo: NavInfo) {
@@ -20,7 +21,7 @@ function NaviLink(navInfo: NavInfo) {
     );
 }
 
-function Navigator() {
+function Menu() {
     return (
         <div className="container mt-3 h4">
             <nav>
@@ -35,5 +36,5 @@ function Navigator() {
     );
 }
 
-export default Navigator;
+export default Menu;
 
