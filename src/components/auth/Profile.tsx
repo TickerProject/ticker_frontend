@@ -1,6 +1,7 @@
 import {Auth0ContextInterface, useAuth0, User} from "@auth0/auth0-react";
 import React from "react";
 
+//TODO abstraction
 const Profile = () => {
     const auth: Auth0ContextInterface = useAuth0();
 

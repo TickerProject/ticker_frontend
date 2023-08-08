@@ -1,10 +1,16 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+interface Location {
+    city: string;
+    state: string;
+    country: string;
+}
+
 function Main() {
     return (
-        <div className="display-1">
-            Main
+        <div>
+            Location
         </div>
     );
 }

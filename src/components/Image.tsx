@@ -5,7 +5,9 @@ import TickerLogo from '../resources/media/logo-white.svg';
 const Image = ({ imagePath } : { imagePath: string }) => {
     return (
         <div>
-            <img src={ imagePath } alt={ imagePath } />
+            <svg className="">
+                <use xlinkHref={imagePath}></use>
+            </svg>
         </div>
     );
 }
