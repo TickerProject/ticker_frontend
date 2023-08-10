@@ -4,6 +4,7 @@ import Task from "./Task";
 function CreateTask() {
 
     const task: Task = {
+        id: "",
         client: { name: ""},
         code: "",
         matter: { name: ""},
@@ -11,7 +12,7 @@ function CreateTask() {
         narrative: "",
         project: {name: ""},
         activityCode: "",
-        time: 0,
+        time: 0
     }
     return (
         <div className="container">

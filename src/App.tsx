@@ -3,7 +3,6 @@ import './App.css';
 import Menu from "./components/Menu";
 import Routing from "./components/Routing";
 import LoginButton from "./components/auth/LoginButton";
-import Image from "./components/Image";
 import Search from "./components/Search";
 
 function App() {
